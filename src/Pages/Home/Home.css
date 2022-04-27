@@ -1,0 +1,27 @@
+.about-container {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.header {
+  font-size: 22px;
+  font-style: italic;
+  padding-left: 25px;
+}
+
+.para-text {
+  font-size: 18px;
+}
+
+.testimonials-container {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.testimonials-header {
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}

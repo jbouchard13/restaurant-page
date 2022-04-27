@@ -1,33 +1,9 @@
 body {
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 #content {
-}
-
-.nav-bar {
-  height: 150px;
-  width: 100%;
-  background-color: pink;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.link {
-  padding-left: 10px;
-  font-size: 20px;
-}
-
-.links-wrapper {
-  display: flex;
-  padding-right: 10px;
-}
-
-.logo-img {
-  height: 75px;
-  width: 75px;
+  flex-direction: column;
 }

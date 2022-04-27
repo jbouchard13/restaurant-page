@@ -1,5 +1,5 @@
 // contains all elements with the navbar
-
+import "./Nav.css";
 // logo
 import logo from "./ramen-transparent.png";
 
@@ -25,7 +25,7 @@ export default function Nav() {
   ramenLogo.classList.add("logo-img");
 
   const title = document.createElement("div");
-  title.innerHTML += "Spicy Ramen Shop";
+  title.textContent = "Spicy Ramen Shop";
   title.classList.add("title");
 
   const logoTitleWrapper = document.createElement("div");
@@ -41,7 +41,7 @@ export default function Nav() {
   linksWrapper.classList.add("links-wrapper");
   linksWrapper.append(homeLink, menuLink, contactLink);
 
-  navBar.append(ramenLogo, linksWrapper);
+  navBar.append(logoTitleWrapper, linksWrapper);
 
   content.appendChild(navBar);
 }
