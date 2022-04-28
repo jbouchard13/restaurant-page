@@ -1,6 +1,24 @@
 .about-container {
-  background-color: aqua;
+  background-color: #ebebeb;
   padding: 20px;
+}
+
+.banner {
+  background-color: #020202;
+  background-size: cover;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.bar {
+  background-color: #020202;
+}
+
+.bar-image {
+  width: 100%;
 }
 
 .header {
@@ -14,14 +32,20 @@
 }
 
 .testimonials-container {
-  background-color: aquamarine;
+  background-color: #ebebeb;
   padding: 20px;
 }
 
 .testimonials-header {
 }
 
+.single-testimonial-container {
+  border-bottom: 2px solid #27889a;
+  padding: 10px 0 10px 0;
+}
 .img {
   width: 150px;
   height: 150px;
+  border: 2px solid #771b28;
+  border-radius: 8px;
 }

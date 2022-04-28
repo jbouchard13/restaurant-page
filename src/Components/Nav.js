@@ -16,6 +16,7 @@ const createLink = (linkName) => {
 
 export default function Nav() {
   const content = document.querySelector("#content");
+
   const navBar = document.createElement("div");
   navBar.classList.add("nav-bar");
 
@@ -43,5 +44,5 @@ export default function Nav() {
 
   navBar.append(logoTitleWrapper, linksWrapper);
 
-  content.appendChild(navBar);
+  content.append(navBar);
 }
