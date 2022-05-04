@@ -9,8 +9,13 @@
 }
 
 .link {
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 20px;
+}
+
+.link:hover {
+  color: #27889a;
+  cursor: pointer;
 }
 
 .logo-title-wrapper {

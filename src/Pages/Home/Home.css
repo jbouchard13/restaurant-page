@@ -1,38 +1,43 @@
 .about-container {
-  background-color: #ebebeb;
+  background-color: #27889a;
   padding: 20px;
+  line-height: 1.4rem;
 }
 
 .banner {
-  background-color: #020202;
-  background-size: cover;
   width: 100%;
 }
 
 .banner-image {
   width: 100%;
-}
-
-.bar {
-  background-color: #020202;
+  display: block;
 }
 
 .bar-image {
   width: 100%;
+  display: block;
 }
 
 .header {
-  font-size: 22px;
+  font-size: 35px;
   font-style: italic;
-  padding-left: 25px;
+  padding-left: 50px;
+}
+
+.para-container {
+  font-size: 18px;
+  background-color: #ebebeb;
+  box-shadow: 2px 1px 8px 2px;
+  padding: 20px 30px 20px 30px;
 }
 
 .para-text {
-  font-size: 18px;
+  padding-bottom: 20px;
 }
 
 .testimonials-container {
-  background-color: #ebebeb;
+  background-color: #771b28;
+
   padding: 20px;
 }
 
@@ -40,12 +45,21 @@
 }
 
 .single-testimonial-container {
-  border-bottom: 2px solid #27889a;
-  padding: 10px 0 10px 0;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-shadow: 2px 1px 8px 2px;
+  padding: 20px 0 20px 20px;
+}
+
+.text-wrapper {
+  padding-right: 20px;
 }
 .img {
+  margin-right: 20px;
   width: 150px;
   height: 150px;
-  border: 2px solid #771b28;
+  box-shadow: -2px 1px 8px 0px;
   border-radius: 8px;
 }

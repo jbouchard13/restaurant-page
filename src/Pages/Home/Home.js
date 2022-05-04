@@ -22,7 +22,12 @@ const createTestimonials = (testimonial) => {
   person.textContent = ` - ${testimonial.name}`;
   person.classList.add("person");
 
-  container.append(img, text, person);
+  const textWrapper = document.createElement("div");
+  textWrapper.classList.add("text-wrapper");
+
+  textWrapper.append(text, person);
+
+  container.append(img, textWrapper);
   return container;
 };
 
@@ -39,7 +44,7 @@ export default function Home() {
 
   // about container
   const aboutContainer = document.createElement("div");
-  aboutContainer.classList.add("about-container");
+  aboutContainer.classList.add("about-container", "container");
 
   const aboutHeader = document.createElement("h3");
   aboutHeader.classList.add("header");
@@ -50,11 +55,19 @@ export default function Home() {
 
   aboutPara.classList.add("para-text");
 
-  aboutContainer.append(aboutHeader, aboutPara);
+  const aboutParaTwo = document.createElement("p");
+  aboutParaTwo.textContent = data.about.text2;
+  aboutPara.classList.add("para-text");
+
+  const paraContainer = document.createElement("div");
+  paraContainer.classList.add("para-container");
+  paraContainer.append(aboutPara, aboutParaTwo);
+
+  aboutContainer.append(aboutHeader, paraContainer);
 
   // bar image between about and testimonials
   const barContainer = document.createElement("div");
-  barContainer.classList.add("bar");
+  barContainer.classList.add("bar", "container");
   const barImage = new Image();
   barImage.src = bar;
   barImage.classList.add("bar-image");

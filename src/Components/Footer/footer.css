@@ -1,0 +1,14 @@
+.footer-container {
+  padding: 30px;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hours-container {
+  color: #ebebeb;
+  background-color: #020202;
+  padding: 20px;
+  border-radius: 6px;
+}
