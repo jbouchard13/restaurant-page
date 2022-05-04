@@ -34,9 +34,9 @@ export default function Nav() {
   logoTitleWrapper.append(ramenLogo, title);
 
   // links
-  const homeLink = createLink("Home");
-  const menuLink = createLink("Menu");
-  const contactLink = createLink("Contact");
+  const homeLink = createLink("home");
+  const menuLink = createLink("menu");
+  const contactLink = createLink("contact");
 
   const linksWrapper = document.createElement("div");
   linksWrapper.classList.add("links-wrapper");
@@ -44,5 +44,5 @@ export default function Nav() {
 
   navBar.append(logoTitleWrapper, linksWrapper);
 
-  content.append(navBar);
+  return navBar;
 }

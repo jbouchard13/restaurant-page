@@ -1,8 +1,6 @@
 import "./Home.css";
 // import the page's data
 import data from "./data";
-// home page images
-// home page text
 
 import banner from "./imgs/banner-resize.jpg";
 import bar from "./imgs/bar1.jpg";
@@ -89,11 +87,14 @@ export default function Home() {
     testimonialsContainer.append(element);
   });
 
-  // location and hours container
-  content.append(
+  const homeContainer = document.createElement("div");
+  homeContainer.classList.add("home");
+
+  homeContainer.append(
     bannerContainer,
     aboutContainer,
     barContainer,
     testimonialsContainer
   );
+  return homeContainer;
 }

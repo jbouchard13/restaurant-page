@@ -11,5 +11,5 @@ export default function Footer() {
   hoursContainer.textContent = "Open 24 hours a day, every day of the week!";
 
   footerContainer.append(hoursContainer);
-  content.append(footerContainer);
+  return footerContainer;
 }
