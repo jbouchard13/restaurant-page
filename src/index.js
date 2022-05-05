@@ -15,12 +15,8 @@ const nav = Nav();
 const footer = Footer();
 const contact = Contact();
 
-let currentPage = "";
-
 // handles rendering all elements
 const renderPage = (nav, page, footer) => {
-  currentPage = page.classList.value;
-  console.log(currentPage);
   content.append(nav, page, footer);
 };
 

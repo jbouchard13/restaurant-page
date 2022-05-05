@@ -30,8 +30,6 @@ const createTestimonials = (testimonial) => {
 };
 
 export default function Home() {
-  const content = document.querySelector("#content");
-
   // banner image
   const bannerContainer = document.createElement("div");
   bannerContainer.classList.add("banner");

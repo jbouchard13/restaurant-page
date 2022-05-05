@@ -1,84 +1,68 @@
 .menu-container {
-  background-color: #ebebeb;
+  margin: 20px 0 80px 0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #27889a;
+  width: 60%;
+}
 
-  /* gradient pattern used from https://projects.verou.me/css3patterns/#seigaiha */
-  background-image: radial-gradient(
-      circle at 100% 150%,
-      #ebebeb 24%,
-      white 24%,
-      white 28%,
-      #ebebeb 28%,
-      #ebebeb 36%,
-      white 36%,
-      white 40%,
-      transparent 40%,
-      transparent
-    ),
-    radial-gradient(
-      circle at 0 150%,
-      #ebebeb 24%,
-      white 24%,
-      white 28%,
-      #ebebeb 28%,
-      #ebebeb 36%,
-      white 36%,
-      white 40%,
-      transparent 40%,
-      transparent
-    ),
-    radial-gradient(
-      circle at 50% 100%,
-      white 10%,
-      #ebebeb 10%,
-      #ebebeb 23%,
-      white 23%,
-      white 30%,
-      #ebebeb 30%,
-      #ebebeb 43%,
-      white 43%,
-      white 50%,
-      #ebebeb 50%,
-      #ebebeb 63%,
-      white 63%,
-      white 71%,
-      transparent 71%,
-      transparent
-    ),
-    radial-gradient(
-      circle at 100% 50%,
-      white 5%,
-      #ebebeb 5%,
-      #ebebeb 15%,
-      white 15%,
-      white 20%,
-      #ebebeb 20%,
-      #ebebeb 29%,
-      white 29%,
-      white 34%,
-      #ebebeb 34%,
-      #ebebeb 44%,
-      white 44%,
-      white 49%,
-      transparent 49%,
-      transparent
-    ),
-    radial-gradient(
-      circle at 0 50%,
-      white 5%,
-      #ebebeb 5%,
-      #ebebeb 15%,
-      white 15%,
-      white 20%,
-      #ebebeb 20%,
-      #ebebeb 29%,
-      white 29%,
-      white 34%,
-      #ebebeb 34%,
-      #ebebeb 44%,
-      white 44%,
-      white 49%,
-      transparent 49%,
-      transparent
-    );
-  background-size: 100px 50px;
+.menu-container h3 {
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.menu-item {
+  background-color: #ebebeb;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  box-shadow: 2px 1px 8px 2px;
+  border-radius: 6px;
+}
+
+.menu-para {
+  border-top: 1px solid #771b28;
+  padding-top: 20px;
+  width: 90%;
+  color: #ebebeb;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.price {
+  font-size: 12px;
+}
+
+.description {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+.menu-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px;
+  margin-bottom: 10px;
+}
+
+.menu-header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+}
+
+.header-container {
+  border-bottom: 1px solid #771b28;
+  width: 90%;
 }
